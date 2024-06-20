@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.omegirl.videochat.pro">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="com.omegirl.videochat.pro.harrier.disdusyd0909607960"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Gamevc2"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.omegirl.videochat.pro.mustang.fndjfhidjk10212010"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.omegirl.videochat.pro.audi.bxhvbxcjhvb01210210"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.omegirl.videochat.pro.audi.uyfgye78643786"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Gamevc2" />
+        <activity
+            android:name="com.omegirl.videochat.pro.scorpio.fjdbhfudhfuid12012110"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.omegirl.videochat.pro.scorpio.fnjdkhfudibhfudnl152012010"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.omegirl.videochat.pro.xuv.mnnmnvmcnvm120210"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.omegirl.videochat.pro.creta.nano.nxbmcxbcjxc102102120"
+            android:exported="true" />
+        <activity
+            android:name="com.omegirl.videochat.pro.scorpio.fndjshfhidjk120120120"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.omegirl.videochat.pro.scorpio.fndjkfduifhduinf12012010"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.omegirl.videochat.pro.scorpio.dsjhdfuifhuidf1120120101"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.omegirl.videochat.pro.scorpio.fbdbfdbnk102012010"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.omegirl.videochat.pro.hdfsbfsdtyf8d7"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.omegirl.videochat.pro.uidshuhfuis76s78d6s789d"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+
+        <activity
+            android:name="com.omegirl.videochat.pro.scorpio.fbdbhfudybfk12012010"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.omegirl.videochat.pro.scorpio.fdkfjdjkhduv102120120"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/ProgressBar" />
+        <activity
+            android:name="com.omegirl.videochat.pro.audi.fdfguytfge011002101101"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Gamevc2" />
+        <activity
+            android:name="com.omegirl.videochat.pro.harrier.fmdklfjd021021201"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashOnly">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.omegirl.videochat.pro.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="479346487821763" />
+
+        <meta-data
+            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+            android:value="true" />
+
+    </application>
+
+</manifest>
