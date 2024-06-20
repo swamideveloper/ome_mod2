@@ -1,0 +1,4 @@
+rootProject.name = "OmeGirl Mod-2"
+include ':app'
+include ':coolboostMedia'
+include ':melodyy'
